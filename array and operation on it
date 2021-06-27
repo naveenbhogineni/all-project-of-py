@@ -1,4 +1,17 @@
-from numpy import *
-arr1 = arange(2,13,5)
-print(arr1)
-# linespace, logspace,arange,zeros , onec
+from array import *
+arr = array('i', [])
+z = int(input("enter the length of array : "))
+for i in range(0, z):
+    y = int(input("enter rhe next value : "))
+    arr.append(y)
+
+print(arr)
+y = int(input("enter the value that your searching for : "))
+k = 0
+for e in arr:
+    if e == y:
+      print(k)
+
+    k = k+1
+
+
