@@ -1,0 +1,4 @@
+from math import *
+root = lambda a: sqrt(a)
+result = root(int(input("enter the value of a : ")))
+print(result)
