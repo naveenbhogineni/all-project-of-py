@@ -1,0 +1,16 @@
+#  filter
+#  map
+#  reduce
+from array import *
+nums = array('d', [])
+x = int(input("enter the length of the list : "))
+for i in range(0, x):
+    y = int(input("enter the next value : "))
+    nums.append(y)
+print(nums)
+evens = list(filter(lambda a: a % 2 == 0, nums))
+print("the even number in the given array : ", evens)
+update = list(map(lambda n: n*n, evens))
+updates = list(map(lambda n: n*n, nums))
+print("the output of multiplication of even in given array with 2 is : ", update)
+print("the output of multiplication of number in given array with 2 is : ", updates)
