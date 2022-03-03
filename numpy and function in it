@@ -1,5 +1,0 @@
-from numpy import *
-arr1 = arange(2,13,5)
-print(arr1)
-# linespace, logspace,arange,zeros , onec
-
